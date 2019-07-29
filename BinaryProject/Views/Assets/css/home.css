@@ -110,23 +110,15 @@ header.masthead h1 {
 
 
 .showcase-img{
-    /*background-color: #343a40;*/
-    /*background: url("../images/bg-headLanding2.jpg") no-repeat center center;*/
-    /*position: relative;*/
-    /*background-size: cover;*/
-    /*background-attachment: fixed;*/
+    background-color: #343a40;
+    background: url("../images/bg-headLanding2.jpg") no-repeat center center;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
     min-height: 450px;
     padding-top: 3rem;
     padding-bottom: 10rem;
 }
-
-
-/*
-.showcase-img{
-    min-height: 450px;
-    background: transparent;
-}
-*/
 
 
 .btcChartDiv{
