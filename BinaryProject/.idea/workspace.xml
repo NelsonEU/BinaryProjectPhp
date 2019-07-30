@@ -2,10 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d79977c-a462-40b8-8444-f7822a843c17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/TournamentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Tournament.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Assets/css/registerSuccessful.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Assets/css/tournaments2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Assets/images/checked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Assets/images/competeSM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Assets/images/learnSM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Assets/images/tradeSM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Assets/js/tournaments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/registerSuccessful.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/selectTournament.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/tournaments2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/TournamentsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/TournamentsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Db.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Db.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/User.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/User.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/Assets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Assets/css/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/Assets/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Assets/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Assets/css/tournaments.css" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Assets/css/tournaments.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Assets/images/compete.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Assets/images/learn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Assets/images/trade.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Assets/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Assets/js/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/tournaments.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/tournaments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +61,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -68,7 +93,8 @@
       <option name="presentableId" value="Default" />
       <updated>1564215876381</updated>
       <workItem from="1564215877961" duration="55036000" />
-      <workItem from="1564414942690" duration="267000" />
+      <workItem from="1564414942690" duration="12968000" />
+      <workItem from="1564508508237" duration="16405000" />
     </task>
     <servers />
   </component>
@@ -80,7 +106,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

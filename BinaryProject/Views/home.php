@@ -4,11 +4,11 @@
         <div class="container headLandingContainer">
             <div class="row">
                 <div class="col-xl-9 mx-auto mb-1 text-headLanding colTitleLanding">
-                    <h1 class="mb-1">CRYPTOCONTESTS</h1>
+                    <h1 class="mb-1 headTitle">CRYPTOCONTESTS</h1>
                     <p>Learn, trade, compete</p>
                 </div>
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto colButtonLanding">
-                    <button class="btn btnHeadLanding">Start competing now</button>
+                    <button class="btn btnHeadLanding" id="btnStartCompeting">Start competing now</button>
                 </div>
             </div>
         </div>
@@ -89,4 +89,5 @@
         </div>
         <!-- TradingView Widget END -->
     </div>
+    <div id="cookie-msg" style="position: fixed; bottom: 0px; width: 100%; text-align: center; padding: 30px 50px; background-color: #202a33; color: whitesmoke; font-size: 16px;"><span class="msg">This website uses cookies. By using this website you consent to our use of these cookies. For more information visit our <a href="https://www.jqueryscript.net/privacy/" style="color: rgb(255, 255, 0); text-decoration: underline;">Privacy Policy</a>. <button onclick="OnCookieAccept()" class="btn-aceptar" style="text-decoration: none; padding: 5px 10px; border-radius: 5px; background-color: whitesmoke; color:#202a33; font-size: 11px;">Got It!</button></span></div>
 </div>

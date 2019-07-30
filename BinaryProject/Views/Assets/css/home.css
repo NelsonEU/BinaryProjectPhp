@@ -22,6 +22,10 @@
     opacity: 0.4;
 }
 
+.headTitle{
+    font-family: 'Josefin Sans';
+}
+
 .btnHeadLanding{
     border: 2px solid #202a33;
     background-color: #202a33;
@@ -39,7 +43,7 @@
 }
 
 .headLandingContainer{
-    padding-top: 100px;
+    padding-top: 140px;
 }
 
 .colButtonLanding{
@@ -59,27 +63,33 @@ header.masthead h1 {
 /* REGION EXPLAIN */
 
 .icon-learn {
-    background: url('../images/learn.svg');
-    height: 250px;
-    width: 250px;
+    background: url('../images/learnSM.svg');
+    /*height: 250px;*/
+    /*width: 250px;*/
+    height: 200px;
+    width: 200px;
     display: block;
     color: whitesmoke;
     /* Other styles here */
 }
 
 .icon-trade {
-    background: url('../images/trade.svg');
-    height: 250px;
-    width: 250px;
+    background: url('../images/tradeSM.svg');
+    /*height: 250px;*/
+    /*width: 250px;*/
+    height: 200px;
+    width: 200px;
     display: block;
     color: whitesmoke;
     /* Other styles here */
 }
 
 .icon-compete {
-    background: url('../images/compete.svg');
-    height: 250px;
-    width: 250px;
+    background: url('../images/competeSM.svg');
+    /*height: 250px;*/
+    /*width: 250px;*/
+    height: 200px;
+    width: 200px;
     display: block;
     color: whitesmoke;
     /* Other styles here */

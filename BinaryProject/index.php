@@ -19,11 +19,19 @@ function chargerClasse($classe)
 
 spl_autoload_register('chargerClasse');
 
+//if($_GET['tournament'] == 3){
+//    $action = 'home';
+//}
+
 # Quelle action est demandée ?
 switch ($action) {
     case 'tournaments':
         require_once('controllers/TournamentsController.php');
         $controller = new TournamentsController();
+        break;
+    case 'tournament':
+        require_once('controllers/TournamentController.php');
+        $controller = new TournamentController();
         break;
     case 'register':
         require_once('controllers/RegisterController.php');
@@ -35,7 +43,6 @@ switch ($action) {
         break;
     case "logout":
         unset($_SESSION['connectedUser']);
-        session_destroy();
         header("Location: index.php");
         break;
     default: # Par défaut, le contrôleur de l'accueil est sélectionné

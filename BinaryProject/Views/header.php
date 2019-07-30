@@ -3,6 +3,7 @@
 <head>
     <title>Binary Project</title>
     <meta name="google-signin-client_id" content="398953615251-opllhkrv8a95cqpq6lau3tf29gekk119.apps.googleusercontent.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="Views/Assets/css/graph.css">
     <link rel="stylesheet" type="text/css" href="Views/Assets/css/login.css">

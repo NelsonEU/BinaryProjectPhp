@@ -27,6 +27,14 @@ $(function () {
     $('.landingPage').css('padding-top', headerHeight + 'px');
 });
 
+function OnCookieAccept(){
+    $('#cookie-msg').hide();
+}
+
+$('#btnStartCompeting').on('click', function () {
+    window.location.href="index.php?action=tournaments";
+})
+
 /*
 $(function(){
     $('.parallax-window').parallax({imageSrc: '../images/bg-headLanding.jpg'});

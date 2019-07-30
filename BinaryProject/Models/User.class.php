@@ -13,11 +13,14 @@ class User
     private $_email;
     private $_password;
     private $_balance;
+    private $_activeContests;
 
     public function __construct()
     {
         $argsNb = func_num_args();
         $args = func_get_args();
+
+        $this->_activeContests = array();
 
         switch($argsNb){
             //Put User In Database
@@ -46,6 +49,24 @@ class User
                 break;
         }
     }
+
+    /**
+     * @return mixed
+     */
+    public function getActiveContests()
+    {
+        return $this->_activeContests;
+    }
+
+    /**
+     * @param mixed $activeContests
+     */
+    public function setActiveContests($activeContests): void
+    {
+        $this->_activeContests = $activeContests;
+    }
+
+
 
     /**
      *

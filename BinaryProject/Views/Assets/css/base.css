@@ -33,6 +33,11 @@ header{
     text-decoration: underline;
 }
 
+.checkedImg{
+    width: 128px;
+    height: 128px;
+}
+
 footer{
     background-color:transparent;
     padding-bottom: 100px;
