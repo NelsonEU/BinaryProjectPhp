@@ -25,7 +25,7 @@ class TournamentController{
             //ICI ON INSCRIT LE USER A UN TOURNOI
 
         }else{
-            require_once(VIEW_PATH . 'login.php');
+            header('Location: index.php?action=login');
         }
 
 

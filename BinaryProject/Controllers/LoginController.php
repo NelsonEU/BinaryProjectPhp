@@ -42,7 +42,7 @@ class LoginController{
                     $_SESSION['connectedUser'] = serialize($user);
                     $_SESSION['noUser'] = false;
                     $_SESSION['wrongUser'] = false;
-                    header('Location: index.php');
+                    header('Location: index.php?action=tournaments');
                 }
             }
         }else{
